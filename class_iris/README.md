@@ -8,11 +8,12 @@ The output layer has a softmax activation.<br/>
 Uses Adam as the optimizer
 
 ### Dependencies
-1. keras
-2. tensorflow
-3. pandas
-4. numpy
-5. sklearn
+1. Python 3.5/3.6
+2. keras
+3. tensorflow
+4. pandas
+5. numpy
+6. sklearn
 
 Use pip to install any missing dependencies
 
