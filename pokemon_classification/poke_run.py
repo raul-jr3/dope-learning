@@ -1,4 +1,4 @@
-import numpy as np 
+import numpy as np
 from keras.models import Sequential
 from keras.layers import Dense, Activation
 from keras.optimizers import Adam
@@ -16,7 +16,7 @@ def build_model():
 	"""
 	builds the neural network with three hidden layers
 	with a relu activation function.
-	The final output layer will have softmax as the 
+	The final output layer will have softmax as the
 	activation function
 
 	"""
@@ -31,8 +31,9 @@ def build_model():
 	model.add(Activation('relu'))
 	model.add(Dense(nb_classes))
 	model.add(Activation('softmax'))
+	model.summary()
 
-	return model 
+	return model
 
 if __name__ == '__main__':
 
