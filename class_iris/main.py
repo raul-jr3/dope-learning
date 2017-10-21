@@ -26,6 +26,7 @@ def build_neural_network():
 	model.add(Activation('relu'))
 	model.add(Dense(nb_classes))
 	model.add(Activation('softmax'))
+	model.summary()
 
 	return model
 
